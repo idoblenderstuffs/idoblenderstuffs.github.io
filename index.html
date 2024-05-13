@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>idoblenderstuffs</title>
+  </head>
+  <body>
+    <header>
+      <h1>idoblenderstuffs<h1>
+      <h4>uk based | 16yo | 4y exp | 3.28k subs | 233k views</h4>
+    </header>
+
+    <div class="columns">
+    <div class="panel">
+      <strong>main</strong><br>
+      <a href="javascript:article(0)">blog posts</a><br><br>
+
+      <strong>places</strong><br>
+      <a href="javascript:article(1)">youtube channel</a><br>
+      <a href="javascript:article(2)">discord server</a><br>
+      <a href="javascript:article(3)">github repos</a><br>
+      <a href="javascript:article(4)">gmail contact</a><br><br>
+
+      <strong>assets</strong><br>
+      <a href="javascript:article(5)">main fnaf models</a><br>
+      <a href="javascript:article(6)">springs v5 models</a><br>
+      <a href="javascript:article(7)">fnaf wall textures</a><br>
+      <a href="javascript:article(8)">unreleased maps</a><br><br>
+
+      <strong>games</strong><br>
+      <a href="javascript:article(9)">five nights at kian's</a><br>
+      <a href="javascript:article(10)">pickr</a><br>
+      <a href="javascript:article(11)">juggle balls & stuff</a><br>
+      <a href="javascript:article(12)">unpleasant balls</a><br>
+      <a href="javascript:article(13)">our little horror story</a><br>
+      <a href="javascript:article(14)">fnaf 4 remake</a><br>
+      <a href="javascript:article(15)">sunny side up</a><br>
+      <a href="javascript:article(16)">fnaf world remake</a><br>
+      <a href="javascript:article(17)">my sweetest dream</a><br>
+      <a href="javascript:article(18)">discage</a><br><br>
+
+      <strong>miscellanious</strong><br>
+      <a href="javascript:article(19)">terria-like terrain gen</a><br>
+      <a href="javascript:article(20)">voxel terrain gen</a><br>
+      <a href="javascript:article(21)">web based midi editor</a><br>
+      <a href="javascript:article(22)">supertuxkart tyler mod</a><br>
+      <a href="javascript:article(23)">half life maps</a><br>
+      <a href="javascript:article(24)">bash midi keybinder</a><br>
+    </div>
+    <div class="content">
+      <iframe src="articles/article0.html" id="articleframe"></iframe>
+    </div>
+    </div>
+
+    <script>
+
+    function article(which) {
+      document.getElementById("articleframe").src = "articles/article"+which+".html";
+    }
+
+    </script>
+
+    <style>
+
+    header {
+      border-color: white;
+      border-bottom-width: 5px;
+      border-bottom-style: solid;
+      display: flex;
+    }
+    h1 {
+      margin-left: 5%;
+    }
+    h4 {
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 5%;
+    }
+    strong {
+      font-size: 110%;
+    }
+
+    body {
+      color: white;
+      background-color: black;
+      margin: 0px;
+      font-family: monospace;
+    }
+
+    a {
+      text-decoration: none;
+      color: gray;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
+
+    .columns {
+      display: flex;
+    }
+    .panel {
+      border-right-style: solid;
+      border-color: white;
+      border-right-width: 3px;
+      padding: 1%;
+      height: 90vh;
+    }
+    .content {
+      padding: 1%;
+      width: 90%;
+    }
+
+    </style>
+
+  </body>
+</html>
