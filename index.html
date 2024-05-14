@@ -56,7 +56,12 @@
     <script>
 
     function article(which) {
-      document.getElementById("articleframe").src = "articles/article"+which+".html";
+      let frame = document.getElementById("articleframe");
+      frame.src = "articles/article"+which+".html";
+      frame.$("body").style.color = "white";
+      frame.$("a").style.text-decoration = "none";
+      frame.$("a").style.color = "gray";
+      
     }
 
     </script>
